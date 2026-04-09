@@ -1,8 +1,10 @@
 [package]
 name = "cuda-edge-runtime"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2021"
-description = "Trust engine and fleet coordination — uses cuda-equipment"
+description = "Edge runtime — trust engine, reflex actions, fleet coordination, built on cuda-equipment"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-edge-runtime"
 
 [dependencies]
-# cuda-equipment = { path = "../cuda-equipment" }
+cuda-equipment = { path = "../cuda-equipment" }
